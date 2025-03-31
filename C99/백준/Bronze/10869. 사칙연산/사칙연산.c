@@ -1,11 +1,8 @@
 #include <stdio.h>
-int A, B;
+
 int main(void){
+    int A,B = 0;
     scanf("%d %d", &A, &B);
-    printf("%d\n", A + B);
-    printf("%d\n", A - B);
-    printf("%d\n", A * B);
-    printf("%d\n", A / B);
-    printf("%d", A % B);
-return 0;
+    printf("%d\n%d\n%d\n%d\n%d", A + B, A - B, A * B, A / B, A % B);
+    return 0;
 }
